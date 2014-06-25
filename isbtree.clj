@@ -1,3 +1,4 @@
+;; clojure problem 'To Tree, or not to Tree'
 (fn is-btree? [[rt lc rc :as x]]
   (cond
     (some false? x) false
